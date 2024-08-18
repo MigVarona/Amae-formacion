@@ -1,7 +1,7 @@
 // src/app/api/login/route.ts
 import { NextResponse } from 'next/server';
-import {dbConnect} from '../../../../lib/mongodb'; // Asegúrate de que esta ruta es correcta
-import User from '../../../../models/User';     // Asegúrate de que esta ruta es correcta
+import {dbConnect} from '../../../../lib/mongodb'; 
+import User from '../../../../models/User';     
 import bcrypt from 'bcryptjs';
 
 export async function POST(req: Request) {
