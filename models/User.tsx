@@ -11,7 +11,6 @@ const UserSchema: Schema = new Schema({
   password: { type: String, required: true },
 });
 
-// Usa mongoose.models para evitar errores de recompilación en desarrollo
 const User = mongoose.models.User || mongoose.model<IUser>('User', UserSchema);
 
 export default User;
