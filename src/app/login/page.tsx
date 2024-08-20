@@ -2,8 +2,7 @@
 
 
 import { useState, ChangeEvent, FormEvent } from 'react';
-import { useRouter } from 'next/navigation'; // Cambiado a next/navigation
-
+import { useRouter } from 'next/navigation'; 
 export default function LoginPage() {
   const [username, setUsername] = useState<string>('');
   const [password, setPassword] = useState<string>('');
@@ -30,7 +29,7 @@ export default function LoginPage() {
     });
 
     if (res.ok) {
-      router.push('/dashboard'); // Redirige a la página del dashboard después de iniciar sesión.
+      router.push('/dashboard'); 
     } else {
       const data = await res.json();
       setError(data.message);
