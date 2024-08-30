@@ -1,15 +1,11 @@
-import Image from "next/image";
-import { Form} from "@/components/Form";
+
+import Form from "@/components/Form";
 
 export default function Home() {
   return (
+    <main>
 
-    <main >
       <Form />
-     
-
-    </main> 
-
-
+    </main>
   );
 }
