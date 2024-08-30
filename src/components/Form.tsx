@@ -15,7 +15,7 @@ export default function Form() {
      <Amae /> 
       <div className="mx-auto w-full max-w-md space-y-4">
         <div className="text-center">
-          <p className="mt-2 text-muted-foreground">Bienvenido a Amae.</p>
+          <p className="mt-2 text-muted-foreground">Bienvenido a Amae formación.</p>
         </div>
         <form className="space-y-4">
           <div>
