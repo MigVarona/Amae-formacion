@@ -27,7 +27,7 @@ export default function Form() {
     setLoading(true);
     setError(''); 
 
-    const apiUrl = 'http://localhost:5000/api/login'; 
+    const apiUrl = 'https://amae.adaptable.app/api/login'; 
 
     try {
       const res = await fetch(apiUrl, {
