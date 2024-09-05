@@ -41,48 +41,47 @@ export default function Dashboard() {
                 height={400}
                 className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
               />
-
-              <div className="absolute inset-0 flex items-center justify-center">
-                <h3 className="text-2xl font-bold text-white">Video 1</h3>
-              </div>
             </div>
           </a>
-          <div className="relative overflow-hidden rounded-lg">
-            <img
-              src="/masterclass_ia.png"
-              alt="Video 2"
-              width={600}
-              height={400}
-              className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h3 className="text-2xl font-bold text-white">Video 2</h3>
+          <a href="https://vimeo.com/943347285/08d0b01f15?share=copy">
+            <div className="relative overflow-hidden rounded-lg">
+              <img
+                src="/coordinacion postpo I.png"
+                alt="Video 1"
+                width={600}
+                height={400}
+                className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+              />
+
+              
             </div>
-          </div>
-          <div className="relative overflow-hidden rounded-lg">
-            <img
-              src="/logo_glitch1_rgb_blanco.jpg"
-              alt="Video 3"
-              width={600}
-              height={400}
-              className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h3 className="text-2xl font-bold text-white">Video 3</h3>
+          </a>
+          <a href="https://vimeo.com/940972383/27400768a0?share=copy">
+            <div className="relative overflow-hidden rounded-lg">
+              <img
+                src="/coordinacion postpo II.png"
+                alt="Video 1"
+                width={600}
+                height={400}
+                className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+              />
+
+              
             </div>
-          </div>
-          <div className="relative overflow-hidden rounded-lg">
-            <img
-              src="/logo_glitch1_rgb_blanco.jpg"
-              alt="Video 4"
-              width={600}
-              height={400}
-              className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h3 className="text-2xl font-bold text-white">Video 4</h3>
+          </a>
+          <a href="https://vimeo.com/944744554/071a875886?share=copy">
+            <div className="relative overflow-hidden rounded-lg">
+              <img
+                src="/coordinacion postpo III.png"
+                alt="Video 1"
+                width={600}
+                height={400}
+                className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+              />
+
+              
             </div>
-          </div>
+          </a>
           <div className="relative overflow-hidden rounded-lg">
             <img
               src="/logo_glitch1_rgb_blanco.jpg"
@@ -91,9 +90,6 @@ export default function Dashboard() {
               height={400}
               className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h3 className="text-2xl font-bold text-white">Video 5</h3>
-            </div>
           </div>
           <div className="relative overflow-hidden rounded-lg">
             <img
@@ -115,9 +111,6 @@ export default function Dashboard() {
               height={400}
               className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h3 className="text-2xl font-bold text-white">Video 6</h3>
-            </div>
           </div>
           <div className="relative overflow-hidden rounded-lg">
             <img
@@ -127,9 +120,6 @@ export default function Dashboard() {
               height={400}
               className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h3 className="text-2xl font-bold text-white">Video 6</h3>
-            </div>
           </div>
         </div>
       </section>
