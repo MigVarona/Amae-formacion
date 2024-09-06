@@ -29,7 +29,10 @@ export default function Dashboard() {
   return (
     <div>
       <LogoutButton />
+      <div className="mt-10">
       <Amae />
+      </div>
+     
       <section className="w-full bg-black py-12 md:py-24 lg:py-32 flex justify-center items-center">
         <div className="container grid grid-cols-2 gap-6 px-4 sm:grid-cols-2 md:grid-cols-4 lg:gap-8 justify-center items-center">
           <a href="https://vimeo.com/890050563/88fcdcea98">
@@ -46,7 +49,7 @@ export default function Dashboard() {
           <a href="https://vimeo.com/943347285/08d0b01f15?share=copy">
             <div className="relative overflow-hidden rounded-lg">
               <img
-                src="/coordinacion postpo I.png"
+                src="/coordinacion postpo I.jpg"
                 alt="Video 1"
                 width={600}
                 height={400}
@@ -59,7 +62,7 @@ export default function Dashboard() {
           <a href="https://vimeo.com/940972383/27400768a0?share=copy">
             <div className="relative overflow-hidden rounded-lg">
               <img
-                src="/coordinacion postpo II.png"
+                src="/coordinacion postpo II.jpg"
                 alt="Video 1"
                 width={600}
                 height={400}
@@ -72,7 +75,7 @@ export default function Dashboard() {
           <a href="https://vimeo.com/944744554/071a875886?share=copy">
             <div className="relative overflow-hidden rounded-lg">
               <img
-                src="/coordinacion postpo III.png"
+                src="/coordinacion postpo III.jpg"
                 alt="Video 1"
                 width={600}
                 height={400}
