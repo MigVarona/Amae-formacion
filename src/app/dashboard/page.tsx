@@ -30,9 +30,9 @@ export default function Dashboard() {
     <div>
       <LogoutButton />
       <div className="mt-10">
-      <Amae />
+        <Amae />
       </div>
-     
+
       <section className="w-full bg-black py-12 md:py-24 lg:py-32 flex justify-center items-center">
         <div className="container grid grid-cols-2 gap-6 px-4 sm:grid-cols-2 md:grid-cols-4 lg:gap-8 justify-center items-center">
           <a href="https://vimeo.com/890050563/88fcdcea98">
@@ -55,8 +55,6 @@ export default function Dashboard() {
                 height={400}
                 className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
               />
-
-              
             </div>
           </a>
           <a href="https://vimeo.com/940972383/27400768a0?share=copy">
@@ -68,8 +66,6 @@ export default function Dashboard() {
                 height={400}
                 className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
               />
-
-              
             </div>
           </a>
           <a href="https://vimeo.com/944744554/071a875886?share=copy">
@@ -81,13 +77,11 @@ export default function Dashboard() {
                 height={400}
                 className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
               />
-
-              
             </div>
           </a>
           <div className="relative overflow-hidden rounded-lg">
             <img
-              src="/logo_glitch1_rgb_blanco.jpg"
+              src="/davinci 2024 horizontal.png"
               alt="Video 5"
               width={600}
               height={400}
@@ -96,7 +90,7 @@ export default function Dashboard() {
           </div>
           <div className="relative overflow-hidden rounded-lg">
             <img
-              src="/logo_glitch1_rgb_blanco.jpg"
+              src="/davinci 2024 horizontal2.png"
               alt="Video 6"
               width={600}
               height={400}
@@ -108,8 +102,8 @@ export default function Dashboard() {
           </div>
           <div className="relative overflow-hidden rounded-lg">
             <img
-              src="/logo_glitch1_rgb_blanco.jpg"
-              alt="Video 6"
+              src="/davinci 2024 horizontal2.png"
+              alt="Video 7"
               width={600}
               height={400}
               className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
@@ -118,12 +112,31 @@ export default function Dashboard() {
           <div className="relative overflow-hidden rounded-lg">
             <img
               src="/logo_glitch1_rgb_blanco.jpg"
-              alt="Video 6"
+              alt="Video 8"
               width={600}
               height={400}
               className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
             />
           </div>
+          <div className="relative overflow-hidden rounded-lg">
+            <img
+              src="/logo_glitch1_rgb_blanco.jpg"
+              alt="Video 8"
+              width={600}
+              height={400}
+              className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+            />
+          </div>
+          <div className="relative overflow-hidden rounded-lg">
+            <img
+              src="/logo_glitch1_rgb_blanco.jpg"
+              alt="Video 8"
+              width={600}
+              height={400}
+              className="aspect-video object-cover w-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+            />
+          </div>
+ 
         </div>
       </section>
     </div>
